@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px; 
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(229, 245, 239);
+}
+
+.website-NBA{
+    width: 1380px;
+    margin: 0 auto;
+}
+.header {
+    height: 50px;
+    width: 100%;
+   
+    margin: 2px 0;
+    background-color: rgb(31, 7, 51);
+}
+
+.header img{
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+}
+
+.header .menu-utama{
+    margin-top: 3px;
+    margin-left: 5px;
+    list-style: none;
+}
+
+.header .menu-utama li{
+    float: left;
+    margin-right: 20px;
+    padding-right: 30px;
+}
+.header .menu-utama li a {
+    color: rgb(22, 18, 236);
+    text-decoration: none;
+}
+
+.header form{
+    float: right;
+    margin-right: 30px;
+}
+
+.konten {
+    width: 70%;
+    float: left;
+    
+}
+
+.konten .blog {
+    background-color: white;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.konten .blog img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+.konten .blog h2 {
+    color: gray;
+    font-size: 11px;
+}
+
+.konten .blog p {
+    margin: 10px 0;
+}
+
+.konten .blog a {
+    padding: 0px;
+    display: block;
+}
+
+.side-bar {
+    width: 25%;
+    float: right;
+}
+.side-bar p{
+    font-size: 2;
+    margin: 10px 0;
+
+}
+.side-bar h2{
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.side-bar ul {
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+.side-bar ul li a {
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.footer {
+    color: gray;
+    clear: both;
+    background-color: white;
+    text-align: center;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.footer p {
+    font-size: 14px;
+}
